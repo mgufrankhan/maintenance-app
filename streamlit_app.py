@@ -15,7 +15,7 @@ st.title("📄 Document Assistant")
 
 # Get API URL from environment variable or default
 #API_URL = os.getenv("API_URL")  # Replace with your actual Hugging Face Space if needed
-API_URL = "https://huggingface.co/spaces/Amna2024/RAG-API"
+API_URL = "https://amna2024-rag-api.hf.space"
 
 def query_rag_system(query: str):
     """Send query to the RAG endpoint and return results"""
